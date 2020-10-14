@@ -41,14 +41,14 @@ ul, li {
 	padding: 0;
 }
 /* Global style ends here */
-/* Banner style begins here */
-#Banner .logo {
+/* Welcome style begins here */
+#Welcome .logo {
   position: absolute;
   top: 25%;
   left: 16%;
   opacity: 0;
 }
-#Banner {
+#Welcome {
 	width: 0;
 	height: 100vh;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e64741+0,e6255d+100,7db9e8+100 */
@@ -60,7 +60,7 @@ ul, li {
 	overflow: hidden;
 	position: relative;
 }
-body.active #Banner .logo {
+body.active #Welcome .logo {
 	opacity: 1;
 	top: 47%;
 	transition: all 0.5s;
@@ -69,11 +69,11 @@ body.active #Banner .logo {
 	transition-delay: 0.5s;
 	-ms-transition-delay: 0.5s;
 }
-body.active #Banner  {
+body.active #Welcome  {
 	width: 100%;
 	transition:  ease-in-out all 0.5s;
 }
-body.active #Banner .blacksection::before  {
+body.active #Welcome .blacksection::before  {
 	height: 2000px;
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -81,7 +81,7 @@ body.active #Banner .blacksection::before  {
 	transition-delay: 1s;
 	-ms-transition-delay: 1s;
 }
-body.active #Banner h1  {
+body.active #Welcome h1  {
 	opacity: 1;
 	right: 15%;
 	transition: all 0.5s;
@@ -90,7 +90,7 @@ body.active #Banner h1  {
 	transition-delay: 1.5s;
 	-ms-transition-delay: 1.5s;
 }
-#Banner h1 {
+#Welcome h1 {
 	color: #fff;
 	font-size: 80px;
 	font-family: 'Futura PT book';
@@ -104,7 +104,7 @@ body.active #Banner h1  {
   -ms-transform: translateY(-50%);
   opacity: 0;
 }
-#Banner .blacksection::before {
+#Welcome .blacksection::before {
   width: 2000px;
   height: 0;
   background-color: #000;
@@ -232,36 +232,36 @@ body.active .mscroll {
 .menu-toggle:hover, .menu-toggle.active {
   background: #e6275c;
 }
-/* Banner style ends here */
-/* Our Digital services style begins here */
-#Services {
+/* Welcome style ends here */
+/* Our AndroidDev style begins here */
+#AndroidDev {
 	padding: 60px 0 90px 0;
 	text-align: center;
 }
-#Services h2 {
+#AndroidDev h2 {
 	color: #000;
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 90px;
 }
-#Services .each-services img {
+#AndroidDev .each-AndroidDev img {
 	width: 80px;
 	height: auto;
 	padding-bottom: 20px;
 }
-#Services .each-services h3 {
+#AndroidDev .each-AndroidDev h3 {
 	color: #000;
 	font-size: 30px;
 	line-height: 110%;
 	font-family: 'Futura PT book';
 	margin-bottom: 20px;
 }
-#Services .each-services p {
+#AndroidDev .each-AndroidDev p {
 	color: #000;
 	font-size: 18px;
 	line-height: 120%;
 	font-family: 'Futura PT book';
 }
-/* Our Digital services style ends here */
+/* Our AndroidDev style ends here */
 /* Our work begin */
 #OurWork {
   background-color: #414143;
@@ -275,8 +275,8 @@ body.active .mscroll {
 }
 #OurWork .grey-box {
   background-color: #4f4f4f;
-  padding: 10px;
-  height: 400px;
+  padding: 15px;
+  height: 420px;
   position: relative;
 }
 #OurWork .each-work {
