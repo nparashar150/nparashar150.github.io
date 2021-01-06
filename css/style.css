@@ -25,7 +25,8 @@
 body {
 	font-family: 'Futura PT medium';
 	font-size: 16px;
-	line-height: 1.5;
+  line-height: 1.5;
+  background-color: #212121;
 }
 /* Reset style */
 * {
@@ -51,19 +52,14 @@ ul, li {
 #Welcome {
 	width: 0;
 	height: 100vh;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e64741+0,e6255d+100,7db9e8+100 */
-	background: #e64741; /* Old browsers */
-	background: -moz-linear-gradient(top, #e64741 0%, #e6255d 100%, #7db9e8 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #e64741 0%,#e6255d 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #e64741 0%,#e6255d 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64741', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	background: #dc3838;
 	overflow: hidden;
 	position: relative;
 }
 body.active #Welcome .logo {
 	opacity: 1;
 	top: 47%;
-	transition: all 0.5s;
+	transition: all 1s;
 	-ms-transition: all 0.5s;
 	-webkit-transition-delay: 0.5s;
 	transition-delay: 0.5s;
@@ -116,7 +112,7 @@ body.active #Welcome h1  {
   top: 0;
 }
 .mscroll {
-	opacity: 0;
+	opacity: 0.01;
 	position: absolute;
 	text-align: center;
 	display: inline-block;
@@ -239,32 +235,34 @@ body.active .mscroll {
 	text-align: center;
 }
 #AndroidDev h2 {
-	color: #000;
+	color: rgb(176, 176, 176);
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 90px;
 }
 #AndroidDev .each-AndroidDev img {
 	width: 80px;
 	height: auto;
-	padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 #AndroidDev .each-AndroidDev h3 {
 	color: #000;
 	font-size: 30px;
 	line-height: 110%;
 	font-family: 'Futura PT book';
-	margin-bottom: 20px;
+  margin-bottom: 20px;
+  color: rgb(176, 176, 176);
 }
 #AndroidDev .each-AndroidDev p {
 	color: #000;
 	font-size: 18px;
 	line-height: 120%;
-	font-family: 'Futura PT book';
+  font-family: 'Futura PT book';
+  color: rgb(176, 176, 176);
 }
 /* Our AndroidDev style ends here */
 /* Our work begin */
 #OurWork {
-  background-color: #414143;
+  background-color: #2e2e2e;
   padding: 60px 0;
 } 
 #OurWork h2 {
@@ -274,7 +272,7 @@ body.active .mscroll {
 	margin-bottom: 40px;
 }
 #OurWork .grey-box {
-  background-color: #4f4f4f;
+  background-color: #2e2e2e;
   padding: 15px;
   height: 420px;
   position: relative;
@@ -312,28 +310,37 @@ body.active .mscroll {
 /* Our blog begin */
 #OurBlog {
 	padding: 60px 0;
-	background-color: #ececec;
+  background-color: #212121;
+  color: rgb(176, 176, 176);
 }
 #OurBlog h2 {
 	color: #000;
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 20px;
-	text-align: center;
+  text-align: center;
+  background-color: #212121;
+  color: rgb(176, 176, 176);
 }
 #OurBlog p {
 	color: #000;
 	font: 18px/125% 'Futura PT book';
 	margin-bottom: 20px;
-	text-align: center;
+  text-align: center;
+  background-color: #212121;
+  color: rgb(176, 176, 176);
 }
 #OurBlog .blog-wrap {
 	position: relative;
 	height: 500px;
-	margin: 60px 0;
+  margin: 60px 0;
+  background-color: #212121;
+  color: rgb(176, 176, 176);
 }
 #OurBlog .each-block {
     position: absolute;
     width: 420px;
+    background-color: #212121;
+    color: rgb(176, 176, 176);
 }
 #OurBlog .each-block.one {
     left: 0;
@@ -379,7 +386,7 @@ body.active .mscroll {
     content: "";
     width: 2px;
     height: 100%;
-    background-color: #e4e4e4;
+    background-color: rgb(176, 176, 176);
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -438,16 +445,17 @@ body.active .mscroll {
 /* Our blog end */
 /* Testimonials style begins here */
 #Testimonials {
-	padding: 60px 0 90px 0;
+  padding: 60px 0 90px 0;
+  background-color: #2e2e2e;
 }
 #Testimonials h2 {
-	color: #000;
+  color: rgb(176, 176, 176);
 	font: 68px/125% 'Futura PT book';
 	margin-bottom: 20px;
 	text-align: center;
 }
 #Testimonials p {
-	color: #000;
+  color: rgb(176, 176, 176);
 	font: 18px/125% 'Futura PT book';
 	margin-bottom: 20px;
 	text-align: center;
@@ -490,23 +498,23 @@ body.active .mscroll {
 }
 #Testimonials .title {
 	display: inline-block;
-	border-left: 4px solid #89cbbf;
+	border-left: 4px solid #f86b74;
 	padding-left: 20px;
 	margin-left: 15px;
 }
 #Testimonials .title h4 {
 	font: 30px/125% 'Futura PT book';
-	color: #000;
+  color: rgb(176, 176, 176);
 	margin-bottom: 5px;
 }
 #Testimonials .title h6 {
 	font: 18px/125% 'Futura PT book';
-	color: #000;
+  color: rgb(176, 176, 176);
 	margin-bottom: 0;
 }
 #Testimonials .latest-testimonials p {
 	text-align: left;
-	color: #000;
+  color: rgb(176, 176, 176);
 }
 #Testimonials .each-testi p {
 	color: #fff;
@@ -537,17 +545,17 @@ body.active .mscroll {
 	margin: 0;
 }
 #Testimonials .testi-wrapper .latest-testimonials p {
-	color: #000;
+  color: rgb(176, 176, 176);
 }
 /* Testimonials style ends here */
 /* Footer */
 #Contact {
 	text-align: center;
 	padding: 70px 0 50px 0;
-	background-color: #333f4f;
+	background-color: #212121;
 }
 #Contact p {
-    color: #c7c5ca;
+    color: rgb(176, 176, 176);
     font-size: 40px;
     margin-bottom: 30px;
 }
@@ -606,7 +614,7 @@ body.active .mscroll {
   transform: scale(1.3);
 }
 .copyright {
-	background-color: #03060c;
+	background-color: #2e2e2e;
 	padding: 26px 0;
 	text-align: center;
 	font-size: 20px;
@@ -616,3 +624,9 @@ body.active .mscroll {
 	margin-bottom: 0;
 }
 /* Footer */
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
