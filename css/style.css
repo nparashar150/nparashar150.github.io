@@ -36,91 +36,6 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
-#Welcome .logo {
-  position: absolute;
-  top: 25%;
-  left: 16%;
-  opacity: 0;
-}
-#Welcome {
-	width: 0;
-	height: 100vh;
-	background: #dc3838;
-	overflow: hidden;
-  position: relative;
-  flex: auto;
-  flex-wrap: nowrap;
-}
-body.active #Welcome .logo {
-	opacity: 1;
-	top: 47%;
-	transition: all 1s;
-	-ms-transition: all 0.5s;
-	-webkit-transition-delay: 0.5s;
-	transition-delay: 0.5s;
-	-ms-transition-delay: 0.5s;
-}
-body.active #Welcome  {
-	width: 100%;
-	transition:  ease-in-out all 0.5s;
-}
-body.active #Welcome .blacksection::before  {
-	height: 2000px;
-	transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-webkit-transition-delay: 1s;
-	transition-delay: 1s;
-	-ms-transition-delay: 1s;
-}
-body.active #Welcome h1  {
-	opacity: 1;
-	right: 15%;
-	transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-webkit-transition-delay: 1.5s;
-	transition-delay: 1.5s;
-	-ms-transition-delay: 1.5s;
-}
-#Welcome h1 {
-	color: #fff;
-	font-size: 80px;
-	font-family: 'Futura PT book';
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-  right: 0%;
-  top: 50%;
-  transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  opacity: 0;
-}
-#Welcome .blacksection::before {
-  width: 2000px;
-  height: 0;
-  background-color: #000;
-  position: absolute;
-  right: -1000px;
-  transform: rotate(124deg);
-  -ms-transform: rotate(124deg);
-  content: "";
-  top: 0;
-}
-.mscroll {
-	opacity: 0.01;
-	position: absolute;
-	text-align: center;
-	display: inline-block;
-}
-body.active .mscroll {
-	opacity: 1;
-	bottom: 14%;
-	left: 50%;
-	transition: all 0.5s;
-	-webkit-transition-delay: 1.5s;
-	transition-delay: 1.75s;
-	-ms-transition-delay: 1.75s;
-}
 .mobile-header, .mobile-logo {
 	display: none;
 }
@@ -223,8 +138,6 @@ body.active .mscroll {
 .menu-toggle:hover, .menu-toggle.active {
   background: #e6275c;
 }
-/* Welcome style ends here */
-/* Our AndroidDev style begins here */
 #AndroidDev {
 	padding: 60px 0 90px 0;
 	text-align: center;
@@ -620,17 +533,20 @@ body.active .mscroll {
   vertical-align: middle;
   width: 100%;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .imagelist {
     -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+    flex: 25%;
+    max-width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 512px) {
   .imagelist {
     -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
+    flex: 120%;
+    max-width: 50%;
+    box-sizing: border-box;
   }
 }

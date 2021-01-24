@@ -7,9 +7,6 @@ html , body {
 	padding-left: 30px;
 }
 @media only screen and (max-width: 767px) {
-	#Banner .blacksection::before {
-		display: none;
-	}
 	#Banner {
 		width: 100%;
 	}
@@ -198,11 +195,6 @@ html , body {
 	#Services .each-services p {
 		font-size: 16px;
 	}
-	#Banner .blacksection::before {
-	    right: 0;
-	    transform: rotate(50deg);
-	    top: 0;
-	}
 	#OurWork h2, #TestimonialsSlider h2, #OurBlog h2 {
 		font-size: 38px;
 	}
@@ -233,9 +225,6 @@ html , body {
 	}
 } 
 @media screen and (min-width: 992px) and (max-width: 1024px){
-	#Banner .blacksection::before {
-		width: 1200px;
-	}
 	#Banner h1 {
 		font-size: 60px;
 	}
